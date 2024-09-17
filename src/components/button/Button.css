@@ -1,0 +1,22 @@
+.buttonClass {
+  padding: 10px 20px;
+  background-color: rgb(155, 155, 235);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#small {
+  padding: 6px 8px;
+  font-size: 10px;
+}
+
+#medium {
+  padding: 12px 18px;
+  font-size: 14px;
+}
+
+#large {
+  padding: 16px 24px;
+  font-size: 18px;
+}
