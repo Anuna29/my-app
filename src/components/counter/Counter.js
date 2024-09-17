@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Counter.css"
-import { Button } from "../button"
+import { Button } from "../../components/button"
 
 export const Counter = () => {
   const [counter, setCounter]= useState(0);

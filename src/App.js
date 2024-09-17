@@ -1,11 +1,15 @@
-import { Header, Footer, Signin } from "./components";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { Signin, Signup } from "./pages";
+import { Home } from "./pages/home";
 
 export const App = () => {
   return (
-    <div>
-      <Header />
-      <Signin />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/signin" element={<Signin />}></Route>
+        <Route path="/signup" element={<Signup />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }

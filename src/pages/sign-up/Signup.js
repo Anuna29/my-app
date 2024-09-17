@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Signup.css"
-import { Button } from "../../../components/button/Button"
-import { useThemeContext } from '../../../context'
+import { Button } from '../../components';
+import { useThemeContext } from '../../context';
 
 export const Signup = () => {
   const { theme } = useThemeContext();
