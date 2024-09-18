@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-import { Joke, Signin, Signup } from "./pages";
+import { Joke, Posts, Signin, Signup } from "./pages";
 import { Home } from "./pages/home";
 
 export const App = () => {
@@ -10,6 +10,7 @@ export const App = () => {
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/joke" element={<Joke />}></Route>
+        <Route path="/posts" element={<Posts />}></Route>
       </Routes>
     </BrowserRouter>
   )
