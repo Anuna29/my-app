@@ -21,7 +21,7 @@ export const Joke = () => {
   }, []);
 
   return (
-    <div><h2>Random Joke Generator</h2>
+    <div style={{display:'flex',flexDirection:'column', justifyContent:'center', alignItems:'center', height: "100vh"}}><h2>Random Joke Generator</h2>
       <div>
         <p>{joke?.setup}</p>
         <p>{joke?.punchline}</p>
