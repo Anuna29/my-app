@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Home.css"
-import { Counter, Footer, Header } from '../../components'
+import { Footer, Header, ProductList } from '../../components'
+import { ProductsData } from '../../data'
 
 export const Home = () => {
   return (
-    <div>
+    <div id='home'> 
       <Header />
-      <Counter />
+      <ProductList data={ProductsData} />
       <Footer  />
     </div>
   )
