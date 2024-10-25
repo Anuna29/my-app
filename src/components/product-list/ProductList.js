@@ -12,7 +12,9 @@ export const ProductList = (props) => {
   return (
     <div>
       {data.map((product, index) => (
-        <ProductCard product={product} index={index} />
+        <div key={index}>
+          <ProductCard product={product} index={index} />
+        </div>
       ))}
     </div>
   )
